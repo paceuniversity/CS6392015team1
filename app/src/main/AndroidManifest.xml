@@ -16,6 +16,18 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".JavaList"
+            android:label="@string/title_activity_java_list" >
+        </activity>
+        <activity
+            android:name=".JavaCupActivity"
+            android:label="@string/title_activity_java_cup" >
+        </activity>
+        <activity
+            android:name=".JavaCupLoggedActivity"
+            android:label="@string/title_activity_java_cup_logged" >
+        </activity>
     </application>
 
 </manifest>

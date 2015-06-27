@@ -10,18 +10,18 @@ import android.view.ViewGroup;
 /**
  * A placeholder fragment containing a simple view.
  */
-public class MainActivityFragment extends Fragment {
+public class JavaCupLoggedActivityFragment extends Fragment {
 
-    public MainActivityFragment() {
+    public JavaCupLoggedActivityFragment() {
     }
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        View root = inflater.inflate(R.layout.fragment_main, container, false);
+
         /**
-         * TODO: Add Button to listview
+         * TODO: Add Button to go back to home screen
          */
-        return root;
+        return inflater.inflate(R.layout.fragment_java_cup_logged, container, false);
     }
 }

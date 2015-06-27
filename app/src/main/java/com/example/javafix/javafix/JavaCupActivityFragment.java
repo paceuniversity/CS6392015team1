@@ -10,18 +10,20 @@ import android.view.ViewGroup;
 /**
  * A placeholder fragment containing a simple view.
  */
-public class MainActivityFragment extends Fragment {
+public class JavaCupActivityFragment extends Fragment {
 
-    public MainActivityFragment() {
+    public JavaCupActivityFragment() {
     }
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        View root = inflater.inflate(R.layout.fragment_main, container, false);
+
         /**
-         * TODO: Add Button to listview
+         * TODO: Add button links for Log Cup and Cancel
          */
-        return root;
+
+        return inflater.inflate(R.layout.fragment_java_cup, container, false);
+
     }
 }
