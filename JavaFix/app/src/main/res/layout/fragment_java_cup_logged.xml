@@ -1,0 +1,77 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.javafix.javafix.JavaCupLoggedActivityFragment">
+
+    <TextView
+        android:id="@+id/JavaSuccessHeadline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="sans-serif-light"
+        android:gravity="center"
+        android:text="Cup Logged!"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/JavaSuccessTotalHeadline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/JavaSuccessHeadline"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:fontFamily="sans-serif-light"
+        android:gravity="center"
+        android:text="Cups of Coffee today:"
+        android:textSize="40dp" />
+
+    <TextView
+        android:id="@+id/JavaSuccessTotalData"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/JavaSuccessTotalHeadline"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:fontFamily="sans-serif-light"
+        android:gravity="center"
+        android:text="2"
+        android:textSize="80dp"/>
+
+    <TextView
+        android:id="@+id/JavaSuccessTotalCafHeadline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/JavaSuccessTotalData"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:fontFamily="sans-serif-light"
+        android:gravity="center"
+        android:text="Total Caffeine:"
+        android:textSize="40dp"/>
+
+    <TextView
+        android:id="@+id/JavaSuccessTotalCafData"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/JavaSuccessTotalCafHeadline"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:fontFamily="sans-serif-light"
+        android:gravity="center"
+        android:text="830mg"
+        android:textSize="40dp"/>
+
+    <Button
+        android:id="@+id/JavaSuccessButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Home"
+        android:layout_below="@+id/JavaSuccessTotalCafData"
+        android:onClick="gotoHome"/>
+
+</RelativeLayout>
