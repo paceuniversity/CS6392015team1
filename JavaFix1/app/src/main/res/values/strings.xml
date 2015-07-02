@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">JavaFix</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_java_list">JavaList</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_java_cup">JavaCupActivity</string>
+    <string name="title_activity_java_cup_logged">JavaCupLoggedActivity</string>
+    <string name="title_activity_get_menus">GetMenus</string>
+</resources>
